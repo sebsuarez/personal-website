@@ -13,33 +13,32 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "lotion",
-    name: "Lotion",
+    slug: "scout",
+    name: "SCOUT UAV",
     description:
-      "A Notion-inspired note-taking app with rich-text editing, client-side routing, and persistent browser storage.",
-    technologies: ["React", "React Router", "React Quill", "localStorage"],
+      "My Lockheed Martin capstone. A web app to fly and monitor a search-and-rescue drone, with a live map, thermal camera feed, and a review queue for people the AI spotted on the ground.",
+    technologies: ["React", "TypeScript", "FastAPI", "PyMAVLink", "ArduPilot", "MapLibre"],
     year: "2026",
-    githubUrl: "https://github.com/sebsuarez/lotion",
+    featured: true,
+  },
+  {
+    slug: "trading-platform",
+    name: "Trading Platform",
+    description:
+      "A trading bot that handles itself 24/7. Reads ML signals, fires orders in under 200ms, and manages its own edge cases. I built a React dashboard so I can peek in on what it's doing.",
+    technologies: ["Python", "FastAPI", "React", "SQLite", "WireGuard"],
+    year: "2026",
     featured: true,
   },
   {
     slug: "jobwhen",
     name: "Job When?",
     description:
-      "A gamified job-search accountability platform for students and new grads. Track applications, set goals, and earn XP.",
+      "Job searching is rough. So five of us built an app to make it hurt a bit less. Track applications, earn XP for applying, and keep up with how your friends are doing.",
     technologies: ["React", "Flask", "PostgreSQL", "Docker"],
     year: "2026",
     githubUrl: "https://github.com/sebsuarez/jobwhen",
     featured: true,
-  },
-  {
-    slug: "placeholder-project",
-    name: "— Project —",
-    description: "Replace this with your third featured project.",
-    technologies: [],
-    year: "—",
-    featured: true,
-    isPlaceholder: true,
   },
 ];
 

@@ -1,15 +1,15 @@
 export const aboutProfessional = {
   headline: "Building software at the intersection of utility and craft.",
   paragraphs: [
-    "I study software engineering at the University of Calgary. I spend most of my time writing JavaScript and Python — React on the frontend, Flask and PostgreSQL on the backend. I'm finishing my degree and looking for roles where I can keep building things that actually get used.",
-    "What draws me to engineering is the problem-solving more than the specific tools. I like figuring out the right architecture before writing the first line, and I care about code that other people can understand and work with.",
-    "I approach the craft with some patience: readable systems, deliberate decisions, and an honest sense of what I still need to learn.",
+    "I'm a software engineering student at the University of Calgary (graduating May 2027). Most recently I spent 16 months at TC Energy building web apps and tools that engineering teams actually use. Replaced a lot of spreadsheets along the way.",
+    "I write mostly TypeScript and Python. React and Next.js on the frontend, FastAPI or Flask on the back. I like working across the whole stack: thinking through the architecture first, then seeing it through to something shipped.",
+    "Right now I'm leading the software side of SCOUT, a search-and-rescue UAV capstone with Lockheed Martin. Getting live telemetry, thermal video, and mission planning to all work together in one web interface has been the most interesting thing I've built so far.",
   ],
 };
 
 export const currentlyExploring = [
+  "ArduPilot and MAVLink: telemetry pipelines, SITL simulation, operator UX",
+  "Fault tolerance and partial-fill recovery in financial execution systems",
+  "Distributed systems fundamentals: consistency, replication, latency trade-offs",
   "React Server Components and the Next.js App Router model",
-  "System design fundamentals — distributed systems, consistency trade-offs",
-  "Infrastructure basics: containers, CI/CD, and cloud deployment",
-  "TypeScript patterns for larger codebases",
 ];

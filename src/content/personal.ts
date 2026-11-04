@@ -2,10 +2,11 @@ export const personal = {
   name: "Sebastian Suarez",
   firstName: "Sebastian",
   tagline: "software engineer",
-  bio: "I enjoy working across the stack, solving challenging problems, and building software that is useful, reliable, and thoughtfully engineered.",
+  bio: "I like building things that actually get used. From picking the architecture to shipping it. Usually in TypeScript and Python, usually full-stack.",
   location: "Calgary, AB",
   email: "seb.suarez7@gmail.com",
+  phone: "587-719-3883",
   github: "https://github.com/sebsuarez",
-  linkedin: "", // TODO: add LinkedIn URL
+  linkedin: "https://linkedin.com/in/sebastiansuarez",
   resumeUrl: "/resume.pdf",
 };
