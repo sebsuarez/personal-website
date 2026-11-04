@@ -97,7 +97,13 @@ function PhotoSlot({
         </>
       ) : (
         <div className="photo-slot-placeholder">
-          <span className="photo-slot-hint">{hint ?? "add photo"}</span>
+          <span
+            className="photo-slot-hint"
+            title={src ?? `public/images/personal/${hint}`}
+            data-path={src ?? `public/images/personal/${hint}`}
+          >
+            placeholder
+          </span>
         </div>
       )}
     </div>

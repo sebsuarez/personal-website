@@ -124,8 +124,12 @@ export default async function CaseStudyPage({
                   priority
                 />
               ) : (
-                <span className="case-hero-img-label">
-                  Add a screenshot to public/images/projects/{cs.slug}/hero.jpg
+                <span
+                  className="case-hero-img-label"
+                  title={`public/images/projects/${cs.slug}/hero.jpg`}
+                  data-path={`public/images/projects/${cs.slug}/hero.jpg`}
+                >
+                  placeholder
                 </span>
               )}
             </div>

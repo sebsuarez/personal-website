@@ -41,4 +41,4 @@ yarn-error.log*
 next-env.d.ts
 
 # personal source files — do not commit
-/public/files_about_me/
+/public/files_to_reference/
