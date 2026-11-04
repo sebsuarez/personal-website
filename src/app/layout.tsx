@@ -18,6 +18,11 @@ export const metadata: Metadata = {
   title: "Sebastian Suarez | Software Engineer",
   description:
     "Sebastian Suarez is a software engineer based in Calgary, AB, building reliable full-stack applications.",
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({

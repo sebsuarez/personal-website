@@ -142,7 +142,10 @@ export default function HomePage() {
 
           {/* ── Work ────────────────────────────────── */}
           <section id="work" className="section" aria-label="Selected work">
-            <span className="section-label">Selected work</span>
+            <div style={{ display: "flex", alignItems: "baseline", gap: "0.75rem", marginBottom: "2.5rem" }}>
+              <span className="section-label" style={{ marginBottom: 0 }}>Selected work</span>
+              <span style={{ fontSize: "11px", fontFamily: "var(--font-geist-mono)", color: "var(--text-2)", opacity: 0.6 }}>screenshots coming soon!</span>
+            </div>
 
             <ScrollReveal>
               <div className="project-list" role="list">
