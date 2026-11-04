@@ -103,7 +103,7 @@ export default function HomePage() {
                 </div>
               </div>
 
-              {/* Portrait column — hidden on mobile */}
+              {/* Portrait column, hidden on mobile */}
               <div className="intro-portrait-col">
                 <Portrait />
               </div>
@@ -158,7 +158,7 @@ export default function HomePage() {
                     className={`project-row${project.isPlaceholder ? " project-placeholder" : ""}`}
                     aria-label={
                       project.isPlaceholder
-                        ? "Placeholder — replace in projects.ts"
+                        ? "Placeholder, replace in projects.ts"
                         : `${project.name}: ${project.description}`
                     }
                   >

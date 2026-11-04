@@ -12,8 +12,8 @@
   --text: #202a35;
   --text-2: #7d8791;
   --border: #e3e8ed;
-  --accent: #426a91;
-  --accent-hover: #2d5278;
+  --accent: #3d6fad;
+  --accent-hover: #2b5496;
   --surface: #eef0f4;
   --nav-height: 56px;
 }
@@ -42,6 +42,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--bg);
   color: var(--text);
+  scroll-behavior: smooth;
 }
 
 body {
@@ -221,7 +222,8 @@ a {
 .section-label {
   font-size: 11px;
   font-weight: 400;
-  color: var(--text-2);
+  color: var(--accent);
+  opacity: 0.72;
   font-family: var(--font-geist-mono), monospace;
   letter-spacing: 0.07em;
   text-transform: uppercase;
@@ -396,7 +398,7 @@ a {
   opacity: 0.35;
 }
 
-/* Preview card — desktop hover */
+/* Preview card, desktop hover */
 .project-preview {
   display: none;
 }
@@ -491,8 +493,9 @@ a {
 }
 
 .exploring-item::before {
-  content: "—";
-  color: var(--border);
+  content: "→";
+  color: var(--accent);
+  opacity: 0.55;
   flex-shrink: 0;
   font-size: 13px;
 }
@@ -514,7 +517,8 @@ a {
 .photo-category-label {
   font-size: 11px;
   font-weight: 400;
-  color: var(--text-2);
+  color: var(--accent);
+  opacity: 0.72;
   font-family: var(--font-geist-mono), monospace;
   letter-spacing: 0.07em;
   text-transform: uppercase;
@@ -689,7 +693,8 @@ a {
 .case-section-heading {
   font-size: 11px;
   font-family: var(--font-geist-mono), monospace;
-  color: var(--text-2);
+  color: var(--accent);
+  opacity: 0.72;
   letter-spacing: 0.07em;
   text-transform: uppercase;
   margin-bottom: 1rem;
@@ -845,6 +850,10 @@ a {
 /* ─── Reduced motion ─────────────────────────────── */
 
 @media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
   *,
   *::before,
   *::after {

@@ -6,7 +6,7 @@
 // span: 1 = one-third width, 2 = two-thirds width, 3 = full width
 // order: controls display order within a category (ascending)
 
-export type GalleryCategory = "photography" | "football" | "travel" | "cars";
+export type GalleryCategory = "cats" | "football" | "travel" | "cars";
 
 export type GalleryImage = {
   id: string;
@@ -19,7 +19,7 @@ export type GalleryImage = {
 };
 
 export const gallery: GalleryImage[] = [
-  // Example — uncomment and edit after adding the image:
+  // Example: uncomment and edit after adding the image:
   // {
   //   id: "football-01",
   //   category: "football",

@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# personal content — local only, do not commit
+/public/resume.pdf
+/public/files_about_me/

@@ -9,7 +9,7 @@ import { imageExists } from "@/lib/images";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "About — Sebastian Suarez",
+  title: "About | Sebastian Suarez",
   description:
     "Sebastian Suarez is a software engineering student at the University of Calgary, building full-stack applications in JavaScript and Python.",
 };
@@ -24,11 +24,11 @@ type PlaceholderSlot = {
 };
 
 const categoryLayouts: Record<GalleryCategory, PlaceholderSlot[]> = {
-  photography: [
-    { key: "p1", aspectRatio: "4/3", span: 2, hint: "landscape" },
-    { key: "p2", aspectRatio: "3/4", hint: "portrait" },
-    { key: "p3", aspectRatio: "1/1", hint: "square" },
-    { key: "p4", aspectRatio: "16/9", span: 2, hint: "wide" },
+  cats: [
+    { key: "cat1", aspectRatio: "1/1", hint: "cat photo" },
+    { key: "cat2", aspectRatio: "4/3", span: 2, hint: "cat photo" },
+    { key: "cat3", aspectRatio: "1/1", hint: "cat photo" },
+    { key: "cat4", aspectRatio: "1/1", hint: "cat photo" },
   ],
   football: [
     { key: "f1", aspectRatio: "16/9", span: 2, hint: "action" },
@@ -50,13 +50,13 @@ const categoryLayouts: Record<GalleryCategory, PlaceholderSlot[]> = {
 };
 
 const categoryLabels: Record<GalleryCategory, string> = {
-  photography: "Photography",
+  cats: "Cats",
   football: "Football",
   travel: "Travel",
   cars: "Cars",
 };
 
-const categories: GalleryCategory[] = ["photography", "football", "travel", "cars"];
+const categories: GalleryCategory[] = ["cats", "football", "travel", "cars"];
 
 // ─── Photo slot component ─────────────────────────────────────────────────────
 
@@ -137,7 +137,7 @@ export default function AboutPage() {
                 </div>
               </div>
 
-              {/* Portrait — same as homepage, desktop only */}
+              {/* Portrait, same as homepage, desktop only */}
               <div
                 style={{ display: "none" }}
                 className="about-portrait-col"

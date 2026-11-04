@@ -25,7 +25,7 @@ export async function generateMetadata({
   if (!cs) return { title: "Project not found" };
 
   return {
-    title: `${cs.title} — Sebastian Suarez`,
+    title: `${cs.title} | Sebastian Suarez`,
     description: cs.overview,
   };
 }
