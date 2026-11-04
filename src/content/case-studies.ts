@@ -21,7 +21,7 @@ export const caseStudies: CaseStudy[] = [
   {
     slug: "scout",
     title: "SCOUT UAV",
-    tagline: "Ground control station for a search-and-rescue UAV",
+    tagline: "Ground control station for a search-and-rescue drone (UAV)",
     year: "2026",
     role: "Software Lead, Capstone at University of Calgary x Lockheed Martin",
     technologies: [
@@ -37,7 +37,7 @@ export const caseStudies: CaseStudy[] = [
       "GitHub Actions",
     ],
     overview:
-      "SCOUT is a capstone project sponsored by Lockheed Martin to design a fixed-wing UAV capable of autonomous search-and-rescue missions. I lead the software team, building the web-based ground control station (GCS) that operators use to plan missions, monitor live telemetry, review thermal video, and confirm person detections. All in one interface.",
+      "SCOUT is a capstone project sponsored by Lockheed Martin to design a fixed-wing Unmanned Aerial Vehicle (UAV) capable of autonomous search-and-rescue missions. I lead the software team, building the web-based ground control station (GCS) that operators use to plan missions, monitor live telemetry, review thermal video, and confirm person detections. All in one interface.",
     sections: [
       {
         heading: "Problem",
